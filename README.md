@@ -18,4 +18,4 @@ This code is built upon [KgCoOp](https://github.com/htyao89/KgCoOp) . For enviro
 
 
 # Acknowledgements
-Our code is based on [KgCoOp](https://github.com/htyao89/KgCoOp) and [TCP](https://github.com/htyao89/Textual-based_Class-aware_prompt_tuning/) repository. We thank the authors for releasing their code. If you use our model and code, please consider citing these works as well.
+Our code is based on [CoOp](https://github.com/KaiyangZhou/CoOp) and [KgCoOp](https://github.com/htyao89/KgCoOp) repository. We thank the authors for releasing their code. If you use our model and code, please consider citing these works as well.
