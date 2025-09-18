@@ -4,7 +4,7 @@ The official PyTorch implementation of the paper "Dual Knowledge Distillation Fr
 
 # Overview
 This repo contains the PyTorch implementation of DKL, described in the paper "Dual Knowledge Distillation Framework with Class-Adaptive Temperature and TopK Feature Perturbation for Few-Shot Prompt Learning".  
-Due to the paper has not been accepted by any journal yet, we are not able to release the related source code for now, but only the pretrained models. We will continue to release the related source code after the paper has been accepted by a journal.
+Due to the paper has not been accepted yet, we currently only release the test code and our trained models. The complete source code will be made available after the paper is accepted.
 
 
 # Installation
