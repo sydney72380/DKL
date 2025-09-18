@@ -11,7 +11,7 @@ This code is built upon [KgCoOp](https://github.com/htyao89/KgCoOp) . For enviro
 
 
 # base2new models
-&bull;base2new: link: https://pan.baidu.com/s/1qZmaHLpQBEvd6Hy7LPVkYg?pwd=i7pt download code: i7pt
+base2new: link: https://pan.baidu.com/s/1qZmaHLpQBEvd6Hy7LPVkYg?pwd=i7pt download code: i7pt
 After downloading and uncompressing the model, modify the model path in the corresponding sh file to your own directory.
 
 # Test
