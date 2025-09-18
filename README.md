@@ -16,7 +16,9 @@ After downloading and uncompressing the model, modify the model path in the corr
 
 # Test
 for base: sh eval_base.py sh $dataset $seed $gpu $model_epoch
+
 for new: sh eval_new.py sh $dataset $seed $gpu $model_epoch
+
 for few-shot: sh eval_all.py sh $dataset $seed $gpu $shot_num $model_epoch
 
 # Acknowledgements
