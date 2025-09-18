@@ -13,6 +13,8 @@ This code is built upon [KgCoOp](https://github.com/htyao89/KgCoOp) . For enviro
 # models of DKL
 base2new: link: https://pan.baidu.com/s/1qZmaHLpQBEvd6Hy7LPVkYg?pwd=i7pt download code: i7pt
 
+few_shot4: link: https://pan.baidu.com/s/1a6UGa6zTpEouNkI-inmRcQ?pwd=bpmi download code: bpmi
+
 few_shot8: link: https://pan.baidu.com/s/1kCETdLS0lwuflbtiwZQsCg?pwd=px5n download code: px5n
 
 few_shot16: link: https://pan.baidu.com/s/1PMrBGQ8-vVOYMKm9mKDY_A?pwd=1wm4 download code: 1wm4
