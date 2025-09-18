@@ -10,8 +10,10 @@ This repo contains the PyTorch implementation of DKL, described in the paper "Du
 This code is built upon [KgCoOp](https://github.com/htyao89/KgCoOp) . For environment setup and dataset preparation, please refer to the corresponding sections in their README.
 
 
-# base2new models
+# models of DKL
 base2new: link: https://pan.baidu.com/s/1qZmaHLpQBEvd6Hy7LPVkYg?pwd=i7pt download code: i7pt
+few_shot16: link: https://pan.baidu.com/s/1PMrBGQ8-vVOYMKm9mKDY_A?pwd=1wm4 download code: 1wm4
+
 After downloading and uncompressing the model, modify the model path in the corresponding sh file to your own directory.
 
 # Test
