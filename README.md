@@ -18,11 +18,11 @@ few_shot16: link: https://pan.baidu.com/s/1PMrBGQ8-vVOYMKm9mKDY_A?pwd=1wm4 downl
 After downloading and uncompressing the model, modify the model path in the corresponding sh file to your own directory.
 
 # Test
-for base: sh eval_base.py sh $dataset $seed $gpu $model_epoch
+for base: sh eval_base.sh $dataset $seed $gpu $model_epoch
 
-for new: sh eval_new.py sh $dataset $seed $gpu $model_epoch
+for new: sh eval_new.sh $dataset $seed $gpu $model_epoch
 
-for few-shot: sh eval_all.py sh $dataset $seed $gpu $shot_num $model_epoch
+for few-shot: sh eval_all.sh $dataset $seed $gpu $shot_num $model_epoch
 
 # Acknowledgements
 Our code is based on [CoOp](https://github.com/KaiyangZhou/CoOp) and [KgCoOp](https://github.com/htyao89/KgCoOp) repository. We thank the authors for releasing their code. If you use our model and code, please consider citing these works as well.
