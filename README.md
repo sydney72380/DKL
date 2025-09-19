@@ -19,14 +19,16 @@ few_shot8: link: https://pan.baidu.com/s/1kCETdLS0lwuflbtiwZQsCg?pwd=px5n downlo
 
 few_shot16: link: https://pan.baidu.com/s/1PMrBGQ8-vVOYMKm9mKDY_A?pwd=1wm4 download code: 1wm4
 
-After downloading and uncompressing the model, modify the model path in the corresponding sh file to your own directory.
+Each compressed file in the links above contains a total of 33 models trained with 3 random seeds across all 11 datasets. After downloading and extracting these models, simply modify the model paths in the test script file to the actual paths.
 
 # Test
-for base: sh eval_base.sh $dataset $seed $gpu $model_epoch
+for base: sh eval_base.sh $dataset $seed $gpu $epoch
 
-for new: sh eval_new.sh $dataset $seed $gpu $model_epoch
+for new: sh eval_new.sh $dataset $seed $gpu $epoch
 
-for few-shot: sh eval_all.sh $dataset $seed $gpu $shot_num $model_epoch
+for few-shot: sh eval_all.sh $dataset $seed $gpu $shot_num $epoch
+
+Note: Only the ImageNet dataset uses 50 epochs, while all others use 200.
 
 # Acknowledgements
 Our code is based on [CoOp](https://github.com/KaiyangZhou/CoOp) and [KgCoOp](https://github.com/htyao89/KgCoOp) repository. We thank the authors for releasing their code. If you use our model and code, please consider citing these works as well.
